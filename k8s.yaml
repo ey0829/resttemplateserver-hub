@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: resttemplateserver-hub
-          image: ey0829/resttemplateserver-hub:latest
+          image: ey0829/resttemplateserver-hub:36dbb1315223ca32c795abf49d8462e236beb721
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
